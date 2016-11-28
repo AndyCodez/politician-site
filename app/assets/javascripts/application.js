@@ -15,4 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require foundation
-$(function(){ $(document).foundation(); });
+document.addEventListener('turbolinks:load', function(){
+	$(function(){ $(document).foundation(); });	
+})
+
