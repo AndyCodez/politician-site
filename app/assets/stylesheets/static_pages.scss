@@ -5,9 +5,10 @@
 .orbit-image {
 	height: 530px;
 }
-#vision, #lets_get_social {
+#lets_get_social {
 	margin: 0 100px 0 100px;
 }
+
 .social_media_icon {
 	height: 50px;
 	margin: 30px 100px 30px 100px;	
@@ -18,7 +19,6 @@
 .top-bar-right li{
 	font-family: 'Exo 2', sans-serif;
 	width: 180px;
-	text-align: center;
 	border-left: 1px solid black;
 }
 .content_home h4 {
@@ -27,4 +27,10 @@
 }
 .content_home p {
 	font-family: 'Raleway', sans-serif;	
+}
+.inline_divs {
+	display: flex;
+}
+.left_side p, .right_side p{
+	margin: 20px;
 }
